@@ -1,20 +1,22 @@
 == Rails 3.0 app to test rails_admin
 
-= Rails version 3.0.3
 
-= To Run This app
+== To Run This app
 
-# using RVM switch to ruby version 1.9.2
+==  using RVM switch to ruby version 1.9.2
 rvm 1.9.2
 
-#install rails 3
-
+== install rails and other gems
 bundle install
+
+== create database
 create a mysql DB called admin_test_3
-# run the migration
+
+== run the migration
 rake db:migrate
 
-# start the server
+== start the server
 rails s
 
+== Access the admin tool
 goto localhost:3000/admin 
